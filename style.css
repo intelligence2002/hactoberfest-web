@@ -167,3 +167,8 @@ img:hover {
   color: aquamarine;
   font-style: bold;
 }
+
+p {
+    font-family: "Oxygen Mono";
+    font-size: 40px;
+}
