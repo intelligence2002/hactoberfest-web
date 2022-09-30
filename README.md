@@ -18,9 +18,9 @@
  
  PREVIEW :
     
-     HTML-  <p class="contributorName"> Hacktoberfest is a oper source contributing and moderating event </p>
+     HTML-  <p class="Jay Surwase"> Hacktoberfest is a oper source contributing and moderating event </p>
      
-     CSS-  .contributorName{
-            color: white;
+     CSS-  .Jay Surwase{
+            color: red;
             }
      
