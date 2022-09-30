@@ -21,6 +21,6 @@
      HTML-  <p class="Jay Surwase"> Hacktoberfest is a oper source contributing and moderating event </p>
      
      CSS-  .Jay Surwase{
-            color: Red;
+            color: red;
             }
      
