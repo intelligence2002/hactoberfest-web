@@ -1,166 +1,143 @@
-#navbar {
-    position: relative;
-
-  }
-  
-  .logo {
-    width: 5%;
-  }
-  
-  body {
-    font-family: "Nova Square", cursive;
-    font-size: 30px;
-    font-style: italic;
-  }
-  
-  .middle {
-    position: relative;
-    background-color: rgb(168, 41, 41);
-    padding: 140px; 
-    margin: 200px;
-
-    
-  }
-  
-  img {
-    width: 98%;
-    border-radius: 5%;
-    border: 2px solid blue;
-  }
-  
-  img:hover {
-    box-sizing: border-box;
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-    color: #31e1f7;
-  }
-  
-  #Contribution {
-    background-color: black;
-    color: rgb(125, 122, 122);
-    
-  }
-  
-  
-  .you {
-    font-size: 20px;
-    font-style: italic;
-  }
-  
-  .Vishal {
-    color: #31e1f7;
-
-  
-  .you{
-    font-size: 30px;
-  }
-  
-  .gaurav {
-    color: white;
-  }
-  
-  
-  .anikkkkettt{
-    background-color: white;
-    color: black;
-  }
-  
-  }
-  
-  .yash{
-    color: blue;
-  }
-  
-  
-
-}
 
 .logo {
-    width: 5%;
+  width: 5%;
 }
 
 body {
-    font-family: "Nova Square", cursive;
-    font-size: 30px;
-
+  font-family: "Nova Square", cursive;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .middle {
-    position: relative;
-    background-color: black;
-    padding: 140px;
-
+  position: relative;
+  background-color: rgb(168, 41, 41);
+  padding: 140px;
+  margin: 200px;
 }
 
 img {
-    width: 98%;
-    border-radius: 5%;
+  width: 98%;
+  border-radius: 5%;
+  border: 2px solid blue;
 }
 
 img:hover {
-    box-sizing: border-box;
-    -ms-transform: scale(1.1);
-    /* IE 9 */
-    -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
-    transform: scale(1.1);
+  box-sizing: border-box;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: #31e1f7;
 }
 
 #Contribution {
-    background-color: black;
-    color: #fff;
+  background-color: black;
+  color: rgb(125, 122, 122);
 }
 
-
 .you {
-    font-size: 20px;
+  font-size: 20px;
+  font-style: italic;
 }
 
 .Vishal {
+  color: #31e1f7;
+}
 
-    color: #31e1f7;
+.you {
+  font-size: 30px;
+}
+
+.gaurav {
+  color: white;
+}
+
+.anikkkkettt {
+  background-color: white;
+  color: black;
+}
+
+.yash {
+  color: blue;
+}
+
+.logo {
+  width: 5%;
+}
+
+body {
+  font-family: "Nova Square", cursive;
+  font-size: 30px;
+}
+
+.middle {
+  position: relative;
+  background-color: black;
+  padding: 140px;
+}
+
+img {
+  width: 98%;
+  border-radius: 5%;
+}
+
+img:hover {
+  box-sizing: border-box;
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+#Contribution {
+  background-color: black;
+  color: #fff;
+}
+
+.you {
+  font-size: 20px;
+}
+
+.Vishal {
+  color: #31e1f7;
 
   color: #31e1f7;
 }
 
+.you {
+  font-size: 30px;
+}
 
-    .you {
-        font-size: 30px;
-    }
+.gaurav {
+  color: white;
+}
 
-    .gaurav {
-        color: white;
-    }
-
-
-    .anikkkkettt {
-        background-color: white;
-        color: black;
-    }
-
+.anikkkkettt {
+  background-color: white;
+  color: black;
+}
 
 .yash {
-    color: blue;
+  color: blue;
 }
-
 
 .container h2 {
-    font-weight: 100;
-    text-decoration: underline;
-    font-style: bold;
+  font-weight: 100;
+  text-decoration: underline;
+  font-style: bold;
 }
-.akshay{
+.akshay {
   color: violet;
 }
 
-.Prathamesh Adinawar{
-        color: Black;
-        }
+.Prathamesh Adinawar {
+  color: Black;
+}
 
 .Shreya {
-    color:#6000C0;
-    font-style:bold;
+  color: #6000c0;
+  font-style: bold;
 }
 
 .Soham {
@@ -169,6 +146,6 @@ img:hover {
 }
 
 p {
-    font-family: "Oxygen Mono";
-    font-size: 40px;
+  font-family: "Oxygen Mono";
+  font-size: 40px;
 }
