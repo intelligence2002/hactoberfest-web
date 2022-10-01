@@ -157,3 +157,10 @@ img:hover {
     font-family: "Oxygen Mono";
     font-size: 40px;
 }
+.Ayesha {
+     background-color: rgb(198, 31, 156);
+     color: aqua;
+     border-radius: 15px;
+     padding:20px 10px;
+     margin: 20px 10px;
+  }
