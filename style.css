@@ -35,6 +35,18 @@ img:hover {
   color: rgb(125, 122, 122);
 }
 
+.vishaaal {
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  
+}
+
 .you {
   font-size: 20px;
   font-style: italic;
@@ -170,3 +182,5 @@ img:hover {
   font-style: bold;
   text-decoration: underline;
 }
+
+
