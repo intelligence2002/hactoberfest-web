@@ -15,87 +15,90 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nova+Square&family=Ubuntu&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section id="navbar ">
-      <nav class="navbar navbar-dark bg-dark fixed-top">
-        <img class="logo mr-3" src="img\logo.jpg" alt="">
-        <a class="navbar-brand" href="#">Hacktoberfest 2022</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item ">
-              <a class="nav-link" href="https://github.com/MLSC-BSOITR/hactoberfest-web">@Repo <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://hacktoberfest.com/about/">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://hacktoberfest.com/participation/">Participate</a>
-            </li>
+    <div class="back_balls">
+
+      <section id="navbar ">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <img class="logo mr-3" src="img\logo.jpg" alt="">
+          <a class="navbar-brand" href="#">Hacktoberfest 2022</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="https://github.com/MLSC-BSOITR/hactoberfest-web">@Repo <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://hacktoberfest.com/about/">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://hacktoberfest.com/participation/">Participate</a>
+              </li>
           </ul>
         </div>
       </nav>
     </section>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form method="POST" id="form-modal" data-netlify="true">
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label" placeholder="Enter Your Name">Name:</label>
-                  <input type="text" class="form-control" id="recipient-name">
-                </div>
-                <div class="mb-3">
-                  <label for="recipient-phone" class="col-form-label" placeholder="Enter Your Phone">Phone:</label>
-                  <input type="number" class="form-control" id="recipient-phone">
-                </div>
-                <div class="mb-3">
-                  <label for="recipient-email" class="col-form-label" placeholder="Enter Your Email">Email:</label>
-                  <input type="email" class="form-control" id="recipient-email">
-                </div>
-                <div class="modal-footer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form method="POST" id="form-modal" data-netlify="true">
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label" placeholder="Enter Your Name">Name:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="recipient-phone" class="col-form-label" placeholder="Enter Your Phone">Phone:</label>
+                <input type="number" class="form-control" id="recipient-phone">
+              </div>
+              <div class="mb-3">
+                <label for="recipient-email" class="col-form-label" placeholder="Enter Your Email">Email:</label>
+                <input type="email" class="form-control" id="recipient-email">
+              </div>
+              <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <input type="submit" class="btn btn-primary" value="Send Message" id="send-but">
                   </div>
-              </form>
+                </form>
+              </div>
+              
             </div>
-            
           </div>
         </div>
-      </div>
-
-    <section class="middle">
-      <div class="row mt-5 banner">
-        <div class="col-lg-6">
-          <img src="img\fDlbfDDmjA1wMhzq.jpg" alt="">
-        </div>
-         <div class="row mt-6 banner">
-        <div class="col">
-          <img src="https://www.perl.com/article/hacktoberfest-2019/" alt="">
-        </div>
-        <div class="col-lg-6">
-          <img src="img\opengraph.da6e44c0.png" alt="">
-        </div>
-      </div>
-    </section>
-    <div class="container">
-      <div class="mt-5 ">
-        <h2>How to CONTRIBUTE ?</h2>
-        <ol>
-          <li>Search about the the topic or domain on which you want to contribute like changes in style, resizing, changing fonts, etc.</li>
-          <li>Take the reference from below example and structure your information similar to that .</li>
-          <li>Check whether the contribution you are providing is valid.</li>
-          <li>Commit your change and go for pull request.</li>
-          <ul style="list-style-type: disc">
-            <li>Contribution must be done in the given format. Pull request wont be accepted if the format is wrong.</li>
-            <li>Contribution you are providing must be applicable in web and valid.</li>
-          </ul>
-        </ol>
+        
+        <section class="middle">
+          <div class="row mt-5 banner">
+            <div class="col-lg-6">
+              <img src="img\fDlbfDDmjA1wMhzq.jpg" alt="">
+            </div>
+            <div class="row mt-6 banner">
+              <div class="col">
+                <img src="https://www.perl.com/article/hacktoberfest-2019/" alt="">
+              </div>
+              <div class="col-lg-6">
+                <img src="img\opengraph.da6e44c0.png" alt="">
+              </div>
+            </div>
+          </section>
+          <div class="container">
+            <section class="mt-5 p-2 rounded shadow " id="Contribution">
+            <div class="mt-5 ">
+              <h2>How to CONTRIBUTE ?</h2>
+              <ol>
+                <li>Search about the the topic or domain on which you want to contribute like changes in style, resizing, changing fonts, etc.</li>
+                <li>Take the reference from below example and structure your information similar to that .</li>
+                <li>Check whether the contribution you are providing is valid.</li>
+                <li>Commit your change and go for pull request.</li>
+                <ul style="list-style-type: disc">
+                  <li>Contribution must be done in the given format. Pull request wont be accepted if the format is wrong.</li>
+                  <li>Contribution you are providing must be applicable in web and valid.</li>
+                </ul>
+              </ol>
       </div>
 
       
@@ -103,21 +106,20 @@
         <!-- write the single line info about 'Hacktoberfest' in para tag ? -->
         <p class="Prahlad">- Hacktoberfest is a coding event with great swags . </p>
         <p class="gaurav">- Hacktoberfest is a open source program . </p>
-
+        
         <p class="shreyash">- Hacktoberfest is a great program to learn how open source platforms work. </p>
         <p class"=shreyash">- Hacktoberfest is a great program to learn how open source platforms work. </p>
       </div>
-
+      
       <div class="anikkkkettt">
         <h2 class="anikkkkettt">Types of Contributors in Hacktoberfest 2022 :</h2>
         <p class="anikkkettt">- Code Contributors</p>
         <p class="anikkkettt">- No Code Contributors</p>
       </div>
-
-      <section class="mt-5 p-2 rounded shadow " id="Contribution">
+      
         <h2>Contribute here...</h2>
         <div class="you">
-
+          
           <!-- write the single line info about 'Hacktoberfest' in para tag ? -->
           <p class="VishDroid-dev">- Hacktoberfest helps to get started with opensource contribution. </p>
           <p class="Vishal">- Hacktoberfest is a coding event with great swags . </p>
@@ -127,15 +129,15 @@
           <p class="shreyash">- Hacktoberfest is a great program to learn how open source platforms work. </p>
           <p class="Alok">- Hacktoberfest is an all month event for open source enthusiasts.</p>
           <p class"=shreyash">- Hacktoberfest is a great program to learn how open source platforms work. </p>
-         <p class="Alok">- Hacktoberfest is an all month event for open source enthusiasts.</p>
+          <p class="Alok">- Hacktoberfest is an all month event for open source enthusiasts.</p>
           <p class="Shreya">- Hactoberfest is a great way to kick-start our opensource journey. </p>
           <p class="Nishant">- Hacktoberfest is the greatest event i have ever known.</p>
           <p class="Ayroti">- Hacktoberfest is a festivals for opensource contibutors.</p>
           <p class="Soham">- Hacktoberfest is a month long event with great opportunities for open source enthusiasts.</p>
           <p class="Pradeep">- Hacktoberfest PRESENTED BY DigitalOcean logoAppwrite logoDocker logo.</p>
           <p class="Shantanu">- Hacktoberfest is a Great incitive by DIGITALOCEAN.</p>
-         <marquee><p class="Rahul">- Hacktoberfest is a coding event with FREE Developer swags. </p></marquee>
-           <p class="Kunal">- Hacktoberfest provides tshirts or they plant a tree by your name.</p>
+          <marquee><p class="Rahul">- Hacktoberfest is a coding event with FREE Developer swags. </p></marquee>
+          <p class="Kunal">- Hacktoberfest provides tshirts or they plant a tree by your name.</p>
           <p class="Varun">- Hacktoberfest is a great program to learn how you can contribute to open source projects.</p>
           <p class="Ayesha">- Anyone who is participating must Have 4 pull/merge requests accepted between October 1 and October 31 to complete Hacktoberfest</p>
           <p class="YashRajSingh">- it is not necessary to know coding to contribute for Hacktoberfest there are Non code contribution for the Non Coders</p>
@@ -147,57 +149,59 @@
     <footer >
       <h4 class="text-center text-dark mt-4">Made with &hearts; by <a href="https://github.com/MLSC-BSOITR/hactoberfest-web">MLSC-BSOITR</a></h4>
     </footer>
-
-  <!-- Bootstrap Link's  -->
+    
+    <!-- Bootstrap Link's  -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </div>
   </body>
-</html>
+  </html>
+  
+  
 
 
-
-
-
-<!-- <nav class="navbar navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <img class="logo" src="img\logo.jpg" alt="">
-    <a class="navbar-brand" href="#">Hacktoberfest</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Hacktoberfest</h5>
-      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-</div>
-<div class="offcanvas-body">
-  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Dropdown
-      </a>
-      <ul class="dropdown-menu dropdown-menu-dark">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li>
-          <hr class="dropdown-divider">
-        </li>
-        <li><a class="dropdown-item" href="#">Something else here</a></li>
-      </ul>
-    </li>
-  </ul>
-  <form class="d-flex" role="search">
-    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-success" type="submit">Search</button>
-  </form>
-</div>
-</div>
-</div>
-</nav> -->
+  
+  <!-- <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <img class="logo" src="img\logo.jpg" alt="">
+      <a class="navbar-brand" href="#">Hacktoberfest</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Hacktoberfest</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav> -->
+  
