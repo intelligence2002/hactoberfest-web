@@ -222,6 +222,12 @@ img:hover {
   font-style: bold;
   text-decoration: underline;
 }
+.vinit {
+  background-color: rgb(221, 160, 221);
+  color: #4b0082;
+  font-style: bold;
+  text-decoration: underline;
+}
 
 .YashRajSingh{
   color: red;
