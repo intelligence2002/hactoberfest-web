@@ -82,7 +82,8 @@ img:hover {
 }
 .aditya {
   font-size: 5rem;
-  color: rgb(125, 322, 122);
+  color: white;
+  border: 2px solid white;
  }
 .you {
   font-size: 20px;
