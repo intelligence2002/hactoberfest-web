@@ -5,7 +5,9 @@
 }
 
 body {
+  font-family:"super nova",cursive;
   font-family: 'Source Sans Pro', sans-serif;
+  
   font-size: 30px;
   font-style: italic;
   background-image: linear-gradient(
