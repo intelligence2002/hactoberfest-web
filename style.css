@@ -272,7 +272,7 @@ img:hover {
   font-weight: 600;
   font-size: 60px;
   color: #ffffff;
-  background: url(./img/time-tunnel.gif);
+  background: url(img/time-tunnel.gif);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
