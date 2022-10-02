@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap'); */
 .logo {
   width: 5%;
 }
@@ -264,4 +264,12 @@ img:hover {
 .anurag{
   color: #16C1D8;
   font-size: 48px;
+}
+
+.SiddhantaDutta{
+  /* font-family: 'Passions Conflict', cursive; */
+  font-weight: 600;
+  font-size: 60px;
+  color: #ffffff;
+  background: url(./img/time-tunnel.gif);
 }
