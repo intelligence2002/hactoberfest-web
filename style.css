@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap'); */
 .logo {
   width: 5%;
 }
@@ -266,6 +266,15 @@ img:hover {
   font-size: 48px;
 }
 
+
+.SiddhantaDutta{
+  /* font-family: 'Passions Conflict', cursive; */
+  font-weight: 600;
+  font-size: 60px;
+  color: #ffffff;
+  background: url(./img/time-tunnel.gif);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .jt {
@@ -366,4 +375,3 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
