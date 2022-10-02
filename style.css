@@ -1,4 +1,3 @@
-
 .logo {
   width: 5%;
 }
@@ -7,8 +6,39 @@ body {
   font-family: "Nova Square", cursive;
   font-size: 30px;
   font-style: italic;
+  background-image: linear-gradient(
+    295deg,
+    hsl(277deg 46% 12%) 0%,
+    hsl(277deg 45% 12%) 0%,
+    hsl(277deg 45% 12%) 2%,
+    hsl(276deg 44% 12%) 4%,
+    hsl(276deg 43% 12%) 8%,
+    hsl(276deg 43% 12%) 13%,
+    hsl(276deg 42% 11%) 20%,
+    hsl(275deg 42% 11%) 29%,
+    hsl(275deg 41% 11%) 40%,
+    hsl(275deg 40% 11%) 51%,
+    hsl(275deg 40% 11%) 61%,
+    hsl(274deg 39% 11%) 70%,
+    hsl(274deg 38% 10%) 77%,
+    hsl(274deg 38% 10%) 83%,
+    hsl(274deg 37% 10%) 88%,
+    hsl(273deg 37% 10%) 92%,
+    hsl(273deg 36% 10%) 94%,
+    hsl(273deg 36% 10%) 97%,
+    hsl(273deg 35% 9%) 98%,
+    hsl(272deg 34% 9%) 99%,
+    hsl(272deg 34% 9%) 100%,
+    hsl(272deg 33% 9%) 100%
+  );
 }
-
+.back_balls {
+  background-image: radial-gradient(#bbbbbb 20%, transparent 20%);
+  /* background-color: #e53935; */
+  background-position: 0 0, 10px 10px;
+  background-size: 50px 50px;
+  margin-top: -100px;
+}
 .middle {
   position: relative;
   background-color: rgb(168, 41, 41);
@@ -63,9 +93,6 @@ img:hover {
 .gaurav {
   color: white;
 }
-
- 
-
 
 .anikkkkettt {
   background-color: white;
@@ -161,26 +188,27 @@ img:hover {
   font-style: bold;
 }
 
- {
+.rahul {
   font-family: "Oxygen Mono";
   font-size: 40px;
 }
-.rahul {
-    font-family: "Oxygen Mono";
-    font-size: 40px;
-}
 .Ayesha {
-     background-color: rgb(198, 31, 156);
-     color: aqua;
-     border-radius: 15px;
-     padding:20px 10px;
-     margin: 20px 10px;
-  }
+  background-color: rgb(198, 31, 156);
+  color: aqua;
+  border-radius: 15px;
+  padding: 20px 10px;
+  margin: 20px 10px;
+}
 .Sapna {
-  background-color: rgb(221,160,221);
-  color: #4B0082;
+  background-color: rgb(221, 160, 221);
+  color: #4b0082;
   font-style: bold;
   text-decoration: underline;
 }
 
+.YashRajSingh{
+  color: red;
+  font-family: "Oxygen Mono";
+  font-size: 45px;
+ }
 
